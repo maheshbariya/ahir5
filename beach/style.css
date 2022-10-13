@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(mRgCdXXR-1380x1035.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+   
+}
+ul {
+   list-style-type: none;
+   float: right;
+   margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    font-size: large;
+    font-family: 'Antonio', sans-serif;
+    
+
+    
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.activ a{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    width: 115px;
+    height: 115px;
+}
+.main{
+    margin-right: 85px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Antonio', sans-serif;
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Antonio', sans-serif;
+    
+}
+.btn{
+    color:white;
+    font-family: 'Antonio', sans-serif;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
